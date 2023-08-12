@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "react-scripts --openssl-legacy-provider & next dev",
+    "build": "react-scripts --openssl-legacy-provider & next build",
+    "start": "react-scripts --openssl-legacy-provider & next start"
   },
   "dependencies": {
     "antd": "^4.15.5",
