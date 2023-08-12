@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "react-scripts --openssl-legacy-provider & next dev",
-    "build": "react-scripts --openssl-legacy-provider & next build",
-    "start": "react-scripts --openssl-legacy-provider & next start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "antd": "^4.15.5",
     "axios": "^1.4.0",
-    "next": "10.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "^13.4.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "recharts": "^2.0.9"
   },
   "devDependencies": {
     "@types/node": "^15.0.3",
-    "@types/react": "^17.0.5",
+    "@types/react": "^18.2.20",
     "typescript": "^4.2.4"
   }
 }
